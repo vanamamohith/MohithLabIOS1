@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     
     @IBAction func buttonAC(_ sender: UIButton) {
         displayLabel.text  = ""
+        num1 = -1.1
+        num2 = -1.1
     }
     
     @IBAction func ButtonC(_ sender: UIButton) {
@@ -36,12 +38,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonPlusMinus(_ sender: UIButton) {
-        if(displayLabel.text != "")
+        if(operation=="+")
         {
-            num1 = Double(displayLabel.text!)!
+            operation = "-"
         }
-        operation = "-"
-        //displayLabel.text="-"
+        else{
+            operation = "+"
+        }
+        
+        displayLabel.text="\(operation)"
     }
     
     @IBAction func buttonBy(_ sender: UIButton) {
@@ -92,7 +97,7 @@ class ViewController: UIViewController {
         }
         if(operation == "-")
         {
-            ans = num1 - num2
+                ans = num1 - num2
             displayLabel.text = "\(Int(ans))"
         }
         if(operation == "x")
@@ -113,8 +118,8 @@ class ViewController: UIViewController {
         }
         if(operation == "%")
         {
-            ans = Double(Int(num1) % Int(num2))
-            displayLabel.text = "\(ans)"
+            ans = num1.truncatingRemainder(dividingBy: num2)
+            displayLabel.text = "\(String(format: "%.1f",ans))"
         }
     }
     
