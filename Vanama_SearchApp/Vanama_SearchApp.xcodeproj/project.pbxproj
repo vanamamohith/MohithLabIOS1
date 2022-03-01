@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7326BE527C6C796001761C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7326BE427C6C796001761C4 /* AppDelegate.swift */; };
+		B7326BE727C6C796001761C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7326BE627C6C796001761C4 /* SceneDelegate.swift */; };
+		B7326BE927C6C796001761C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7326BE827C6C796001761C4 /* ViewController.swift */; };
+		B7326BEC27C6C796001761C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7326BEA27C6C796001761C4 /* Main.storyboard */; };
+		B7326BEE27C6C797001761C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7326BED27C6C797001761C4 /* Assets.xcassets */; };
+		B7326BF127C6C797001761C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7326BEF27C6C797001761C4 /* LaunchScreen.storyboard */; };
+		B7326BFC27C6C797001761C4 /* Vanama_SearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7326BFB27C6C797001761C4 /* Vanama_SearchAppTests.swift */; };
+		B7326C0627C6C797001761C4 /* Vanama_SearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7326C0527C6C797001761C4 /* Vanama_SearchAppUITests.swift */; };
+		B7326C0827C6C797001761C4 /* Vanama_SearchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7326C0727C6C797001761C4 /* Vanama_SearchAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7326BF827C6C797001761C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7326BD927C6C796001761C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7326BE027C6C796001761C4;
+			remoteInfo = Vanama_SearchApp;
+		};
+		B7326C0227C6C797001761C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7326BD927C6C796001761C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7326BE027C6C796001761C4;
+			remoteInfo = Vanama_SearchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7326BE127C6C796001761C4 /* Vanama_SearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vanama_SearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7326BE427C6C796001761C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7326BE627C6C796001761C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7326BE827C6C796001761C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7326BEB27C6C796001761C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7326BED27C6C797001761C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7326BF027C6C797001761C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7326BF227C6C797001761C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7326BF727C6C797001761C4 /* Vanama_SearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vanama_SearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7326BFB27C6C797001761C4 /* Vanama_SearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vanama_SearchAppTests.swift; sourceTree = "<group>"; };
+		B7326C0127C6C797001761C4 /* Vanama_SearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vanama_SearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7326C0527C6C797001761C4 /* Vanama_SearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vanama_SearchAppUITests.swift; sourceTree = "<group>"; };
+		B7326C0727C6C797001761C4 /* Vanama_SearchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vanama_SearchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7326BDE27C6C796001761C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7326BF427C6C797001761C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7326BFE27C6C797001761C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7326BD827C6C796001761C4 = {
+			isa = PBXGroup;
+			children = (
+				B7326BE327C6C796001761C4 /* Vanama_SearchApp */,
+				B7326BFA27C6C797001761C4 /* Vanama_SearchAppTests */,
+				B7326C0427C6C797001761C4 /* Vanama_SearchAppUITests */,
+				B7326BE227C6C796001761C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7326BE227C6C796001761C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7326BE127C6C796001761C4 /* Vanama_SearchApp.app */,
+				B7326BF727C6C797001761C4 /* Vanama_SearchAppTests.xctest */,
+				B7326C0127C6C797001761C4 /* Vanama_SearchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7326BE327C6C796001761C4 /* Vanama_SearchApp */ = {
+			isa = PBXGroup;
+			children = (
+				B7326BE427C6C796001761C4 /* AppDelegate.swift */,
+				B7326BE627C6C796001761C4 /* SceneDelegate.swift */,
+				B7326BE827C6C796001761C4 /* ViewController.swift */,
+				B7326BEA27C6C796001761C4 /* Main.storyboard */,
+				B7326BED27C6C797001761C4 /* Assets.xcassets */,
+				B7326BEF27C6C797001761C4 /* LaunchScreen.storyboard */,
+				B7326BF227C6C797001761C4 /* Info.plist */,
+			);
+			path = Vanama_SearchApp;
+			sourceTree = "<group>";
+		};
+		B7326BFA27C6C797001761C4 /* Vanama_SearchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7326BFB27C6C797001761C4 /* Vanama_SearchAppTests.swift */,
+			);
+			path = Vanama_SearchAppTests;
+			sourceTree = "<group>";
+		};
+		B7326C0427C6C797001761C4 /* Vanama_SearchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7326C0527C6C797001761C4 /* Vanama_SearchAppUITests.swift */,
+				B7326C0727C6C797001761C4 /* Vanama_SearchAppUITestsLaunchTests.swift */,
+			);
+			path = Vanama_SearchAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7326BE027C6C796001761C4 /* Vanama_SearchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7326C0B27C6C797001761C4 /* Build configuration list for PBXNativeTarget "Vanama_SearchApp" */;
+			buildPhases = (
+				B7326BDD27C6C796001761C4 /* Sources */,
+				B7326BDE27C6C796001761C4 /* Frameworks */,
+				B7326BDF27C6C796001761C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vanama_SearchApp;
+			productName = Vanama_SearchApp;
+			productReference = B7326BE127C6C796001761C4 /* Vanama_SearchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7326BF627C6C797001761C4 /* Vanama_SearchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7326C0E27C6C797001761C4 /* Build configuration list for PBXNativeTarget "Vanama_SearchAppTests" */;
+			buildPhases = (
+				B7326BF327C6C797001761C4 /* Sources */,
+				B7326BF427C6C797001761C4 /* Frameworks */,
+				B7326BF527C6C797001761C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7326BF927C6C797001761C4 /* PBXTargetDependency */,
+			);
+			name = Vanama_SearchAppTests;
+			productName = Vanama_SearchAppTests;
+			productReference = B7326BF727C6C797001761C4 /* Vanama_SearchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7326C0027C6C797001761C4 /* Vanama_SearchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7326C1127C6C797001761C4 /* Build configuration list for PBXNativeTarget "Vanama_SearchAppUITests" */;
+			buildPhases = (
+				B7326BFD27C6C797001761C4 /* Sources */,
+				B7326BFE27C6C797001761C4 /* Frameworks */,
+				B7326BFF27C6C797001761C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7326C0327C6C797001761C4 /* PBXTargetDependency */,
+			);
+			name = Vanama_SearchAppUITests;
+			productName = Vanama_SearchAppUITests;
+			productReference = B7326C0127C6C797001761C4 /* Vanama_SearchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7326BD927C6C796001761C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B7326BE027C6C796001761C4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B7326BF627C6C797001761C4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B7326BE027C6C796001761C4;
+					};
+					B7326C0027C6C797001761C4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B7326BE027C6C796001761C4;
+					};
+				};
+			};
+			buildConfigurationList = B7326BDC27C6C796001761C4 /* Build configuration list for PBXProject "Vanama_SearchApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7326BD827C6C796001761C4;
+			productRefGroup = B7326BE227C6C796001761C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7326BE027C6C796001761C4 /* Vanama_SearchApp */,
+				B7326BF627C6C797001761C4 /* Vanama_SearchAppTests */,
+				B7326C0027C6C797001761C4 /* Vanama_SearchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7326BDF27C6C796001761C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7326BF127C6C797001761C4 /* LaunchScreen.storyboard in Resources */,
+				B7326BEE27C6C797001761C4 /* Assets.xcassets in Resources */,
+				B7326BEC27C6C796001761C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7326BF527C6C797001761C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7326BFF27C6C797001761C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7326BDD27C6C796001761C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7326BE927C6C796001761C4 /* ViewController.swift in Sources */,
+				B7326BE527C6C796001761C4 /* AppDelegate.swift in Sources */,
+				B7326BE727C6C796001761C4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7326BF327C6C797001761C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7326BFC27C6C797001761C4 /* Vanama_SearchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7326BFD27C6C797001761C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7326C0827C6C797001761C4 /* Vanama_SearchAppUITestsLaunchTests.swift in Sources */,
+				B7326C0627C6C797001761C4 /* Vanama_SearchAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7326BF927C6C797001761C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7326BE027C6C796001761C4 /* Vanama_SearchApp */;
+			targetProxy = B7326BF827C6C797001761C4 /* PBXContainerItemProxy */;
+		};
+		B7326C0327C6C797001761C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7326BE027C6C796001761C4 /* Vanama_SearchApp */;
+			targetProxy = B7326C0227C6C797001761C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7326BEA27C6C796001761C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7326BEB27C6C796001761C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7326BEF27C6C797001761C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7326BF027C6C797001761C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7326C0927C6C797001761C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7326C0A27C6C797001761C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7326C0C27C6C797001761C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vanama_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Vanama_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vanama-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7326C0D27C6C797001761C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vanama_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Vanama_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vanama-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7326C0F27C6C797001761C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vanama-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vanama_SearchApp.app/Vanama_SearchApp";
+			};
+			name = Debug;
+		};
+		B7326C1027C6C797001761C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vanama-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vanama_SearchApp.app/Vanama_SearchApp";
+			};
+			name = Release;
+		};
+		B7326C1227C6C797001761C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vanama-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vanama_SearchApp;
+			};
+			name = Debug;
+		};
+		B7326C1327C6C797001761C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vanama-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vanama_SearchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7326BDC27C6C796001761C4 /* Build configuration list for PBXProject "Vanama_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7326C0927C6C797001761C4 /* Debug */,
+				B7326C0A27C6C797001761C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7326C0B27C6C797001761C4 /* Build configuration list for PBXNativeTarget "Vanama_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7326C0C27C6C797001761C4 /* Debug */,
+				B7326C0D27C6C797001761C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7326C0E27C6C797001761C4 /* Build configuration list for PBXNativeTarget "Vanama_SearchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7326C0F27C6C797001761C4 /* Debug */,
+				B7326C1027C6C797001761C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7326C1127C6C797001761C4 /* Build configuration list for PBXNativeTarget "Vanama_SearchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7326C1227C6C797001761C4 /* Debug */,
+				B7326C1327C6C797001761C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7326BD927C6C796001761C4 /* Project object */;
+}
